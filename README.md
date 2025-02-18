@@ -73,16 +73,6 @@ This project contains the Spacewar game developed using C#. The game is an actio
 
 ---
 
-## Katkıda Bulunma / Contribution
-Katkıda bulunmak için:
-To contribute:
-1. Depoyu çatallayın (fork).
-2. Yeni bir dal oluşturun. / Create a new branch.
-3. Değişikliklerinizi kaydedin. / Commit your changes.
-4. Değişiklikleri iterek bir çekme isteği oluşturun. / Push and open a pull request.
-
----
-
 ## Lisans / License
 Bu proje MIT Lisansı ile lisanslanmıştır. / This project is licensed under the MIT License.
 
@@ -98,7 +88,6 @@ Bu proje MIT Lisansı ile lisanslanmıştır. / This project is licensed under t
 
 <img width="1183" alt="Screenshot 2024-12-19 at 01 25 54" src="https://github.com/user-attachments/assets/990040f2-884a-4ab6-919d-328e79216fde" />
 
---
 
 ## Sınıf Diyagramı / Class Diagram
 
