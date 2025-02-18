@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A21176B8-46A1-448C-ADC1-053F8E8AFAAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SpaceWar</RootNamespace>
+    <AssemblyName>SpaceWar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asteroid.cs" />
+    <Compile Include="BasicEnemy.cs" />
+    <Compile Include="BossEnemy.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="CollisionDetector.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="FastEnemy.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="PowerUp.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skor.cs" />
+    <Compile Include="SkorManager.cs" />
+    <Compile Include="Spaceship.cs" />
+    <Compile Include="StrongEnemy.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4fdcaf91e0b9e2a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BasicEnemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayButtonImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BossEnemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastEnemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RussoOne-Regular.ttf" />
+    <None Include="Resources\StrongEnemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HearthImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Point50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Point10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Point20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Point30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpaceshipRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EnemyBullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroid3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroid2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerUpHealth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerUpSpeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerUpDefoult.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerUpDamage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerUpBullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkorBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkorImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkorBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOverScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WinScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ControlsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ControlsImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ControlsImg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestartButtonImg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
