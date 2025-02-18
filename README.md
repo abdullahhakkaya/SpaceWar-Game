@@ -89,7 +89,19 @@ Bu proje MIT Lisansı ile lisanslanmıştır. / This project is licensed under t
 ---
 
 ## Ekran Görüntüleri / Screenshots
-![Oyun Ekranı] 
+
 <img width="1186" alt="Screenshot 2024-12-19 at 01 05 42" src="https://github.com/user-attachments/assets/27efb22e-4c7f-4728-a54d-94963ee3a5d8" />
+
+<img width="570" alt="Screenshot 2024-12-19 at 01 15 27" src="https://github.com/user-attachments/assets/9056e106-9aa5-4443-bb54-2fa65a6b3041" />
+
+<img width="444" alt="Screenshot 2024-12-19 at 01 21 17" src="https://github.com/user-attachments/assets/a08fb9f7-0b4f-41cd-9355-3eb20766d4df" />
+
+<img width="1183" alt="Screenshot 2024-12-19 at 01 25 54" src="https://github.com/user-attachments/assets/990040f2-884a-4ab6-919d-328e79216fde" />
+
+--
+
+## Sınıf Diyagramı / Class Diagram
+
+![Blank diagram](https://github.com/user-attachments/assets/3272f4ca-0b3a-4e6c-84c8-6236a571ecec)
 
 
