@@ -89,6 +89,7 @@ Bu proje MIT Lisansı ile lisanslanmıştır. / This project is licensed under t
 ---
 
 ## Ekran Görüntüleri / Screenshots
-![Oyun Ekranı](path/to/screenshot1.png)  
-![Seviye Atlama](path/to/screenshot2.png)  
+![Oyun Ekranı] 
+<img width="1186" alt="Screenshot 2024-12-19 at 01 05 42" src="https://github.com/user-attachments/assets/27efb22e-4c7f-4728-a54d-94963ee3a5d8" />
+
 
